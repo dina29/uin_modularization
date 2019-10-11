@@ -13,6 +13,12 @@ def hitung_kecepatan(jarak, waktu):
 kecepatan = hitung_kecepatan(1000, 5*60)
 kecepatan = hitung_kecepatan(80000, 50*60)
 
-#tgs fungsi apa saja yang kalian tahu
+def hitung_Energi(m, c):
+    Energi = m*c*c
+    print(f'm = {m / 1000}kg di tempuh dalam kecepatan cahaya = {c*c}m/s')
+    print(f'sehingga Energi = {Energi} Joule')
+    return Energi
+
+Energi = hitung_Energi(0.6, 3*100000000)
 
 
